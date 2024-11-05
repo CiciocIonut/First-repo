@@ -1,0 +1,24 @@
+body {
+  /*background-color: lightblue;*/
+  background-image: url("images/bg.png");
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+h2 {
+  color: mediumvioletred;
+}
+h3 {
+  color: royalblue;
+}
+
+p {
+  color: darkgreen;
+  margin-left: 10px;
+}
+
+img {
+  border-radius: 50%;
+}
