@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="styles.css">
+<script src="javascript.js"></script>
 <head>
 <title>Page Title</title>
 </head>
@@ -8,21 +9,22 @@
 
 <h1>Grupa 2114</h1>
 <p>Eu sunt Ionut</p>
-<img src="./images/avatar.png" width="1600" height="250">
+<img id="avatar_img" src="./images/avatar.png" width="250" height="250">
 <h2> Date de contact </h2>
-<p> Telefon: 0756583229 </p>
-<p> Email: Ciciocionut21@gmail.com</p>	
-
-<h3>Hobbyuri</h3>
-<ul>
-  <li>Gaming</li>
-  <li>Programare</li>
-  <li>Vizionat Filme</li>
-  <li>Plimbari prin oras</li>
+<p id="name"> Nume: Cicioc Ionut Sebastian </p>
+<p id="phone"> Telefon: 0756583229 </p>
+<p id="email"> Email: Ciciocionut21@gmail.com</p>	
+<p id="date_of_birth"> Data nasterii: 21.05.2024 </p>
+<h3 id="hobbies">Hobbyuri</h3>
+<ul id="hobbies_list">
+  <li id="hobby_1">Gaming</li>
+  <li id="hobby_2"> Programare</li>
+  <li id="hobby_3">Vizionat Filme</li>
+  <li id="hobby_4">Plimbari prin oras</li>
 </ul>  
 
-<h3>Materii interesante</h3>
-<table>
+<h3 id="materii">Materii interesante</h3>
+<table id="materii_table">
 	<tr>
 		<th> Denumire materie </th>
 		<th> Anul </th>
@@ -44,6 +46,7 @@
 		<td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/41.pdf"> Microcontrolere </a></td>
 	</tr>
 </table>
-<a href="./cuprins.html"> Cuprins </a>
+<a id="cuprins" href="./cuprins.html"> Cuprins </a> <br>
+<button type="button" onclick="change()">Alta viata</button>
 </body>
 </html>
