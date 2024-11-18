@@ -1,6 +1,7 @@
 function change() {
 	document.getElementById("name").innerHTML ="Tehnician DIGI"
-	document.getElementById("date_of_birth").innerHTML ="19 ani"
+	document.getElementById("date_of_birth").style.visibility="visible"
+	
 	document.getElementById("avatar_img").src="./images/avatar-2.png"
 
 	document.getElementById("materii_table").style.display='none'
@@ -13,3 +14,4 @@ function change() {
 	
 	document.getElementById("cuprins").style.display='none'
 }
+

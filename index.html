@@ -14,7 +14,13 @@
 <p id="name"> Nume: Cicioc Ionut Sebastian </p>
 <p id="phone"> Telefon: 0756583229 </p>
 <p id="email"> Email: Ciciocionut21@gmail.com</p>	
-<p id="date_of_birth"> Data nasterii: 21.05.2024 </p>
+<p style="visibility: hidden;" id="date_of_birth"> Data nasterii: 21.05.2024 </p>
+<script>
+    document.getElementById("date_of_birth").addEventListener("mouseover", function() {
+			document.getElementById("date_of_birth").innerHTML="Varsta: 19 ani";});
+        document.getElementById("date_of_birth").addEventListener("mouseout", function() {
+			document.getElementById("date_of_birth").innerHTML="Data nasterii: 21.05.2024";});
+</script>
 <h3 id="hobbies">Hobbyuri</h3>
 <ul id="hobbies_list">
   <li id="hobby_1">Gaming</li>
